@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet Package Information">
+    <PackageId>udev.NET</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>InfinityGhost</Authors>
+    <Description>.NET library for creating udev rules.</Description>
+    <PackageOutputPath>../nupkg</PackageOutputPath>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
