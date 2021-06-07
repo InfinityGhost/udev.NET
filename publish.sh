@@ -55,7 +55,7 @@ done
 test_var "NUGET_KEY" 1
 test_var "NUGET_SRC" 2
 
-for pkg in nupkgs/*.nupkg; do
+for pkg in "${NUPKG_DIR}/*.nupkg"; do
   # Push libraries to nuget source
   [ ! -z "${VERBOSE}" ] && echo $pkg
   dotnet nuget push -k "${NUGET_KEY}" -s "${pkg}"
